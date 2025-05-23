@@ -164,14 +164,13 @@ Write C program for the below pyramid string pattern. Enter a string: PROGRAM En
 #include <string.h>
 int main() {
     char str[100];
-    int num_rows, i, j,len;
+    int i, j,len;
     scanf("%s", str);
-    scanf("%d", &num_rows);
     len = strlen(str);
     int sp=10;
     int k=0;
     int y=0;
-     for(i = 1; i <=len; i++) {
+     for(i = 1; i <=5; i++) {
         for(int space=1; space<=sp; space++) {
             printf(" ");
         }
@@ -189,13 +188,13 @@ int main() {
    
 }
 
-
 ```
 
 
  ## OUTPUT
 
-![SS4](https://github.com/user-attachments/assets/c42214b2-c90b-47b1-b1f3-5ffac2f66311)
+![sss5](https://github.com/user-attachments/assets/df374647-05a6-4482-9217-40da6bbdf66f)
+
 
  
 
